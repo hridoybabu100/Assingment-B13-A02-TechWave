@@ -87,10 +87,10 @@ ul li a {
 }
 
 #micro {
-    width: 9rem;
+    width: 10vh;
     height: 13rem;
-    top: 18%;
-    left: 56%;
+    top: 40%;
+    left: 45%;
     z-index: 2;
 }
 
@@ -138,6 +138,54 @@ ul li a {
     font-weight: 700;
 }
 
+/* choose section code start  */
+#choose {
+    background-color: #230E3D;
+    padding: 100px 0;
+}
+#choose h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    padding: 40px 0;
+}
+#choose-p {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 30px;
+}
+.card-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.card-2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card-3 {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+#box {
+     background-color: #351165;  
+     padding: 20px;
+     border-radius: 20px;
+}
+#box  *{
+    margin-bottom: 15px;
+}
+#box h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#box p {
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+}
+
 /* responsive-desing  */
 @media screen and (max-width: 1600px) {
     .container {
@@ -152,9 +200,10 @@ ul li a {
     }
 
     #micro {
-        width: 10.43rem;
-        top: 18%;
-        left: 43.5%;
+        width: 10%;
+        height: 30%;
+        top: 20%;
+        left: 45%;
 
     }
 
@@ -177,6 +226,50 @@ ul li a {
         width: 85%;
         margin: 0 auto;
     }
+
+      .hero-circle img {
+        width: 30%;
+        top: 10%;
+        left: 35%;
+    }
+
+    #micro {
+        width: 10%;
+        top: 24%;
+        height: 20%;
+        left: 45%;
+
+    }
+
+    #new-btn {
+        font-size: 15px;
+        top: 12%;
+        left: 56%;
+
+    }
+
+    .hero-contant {
+        text-align: center;
+        padding-bottom: 30px;
+
+
+    }
+
+    .hero-contant h1 {
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 12px;
+
+    }
+
+    .hero-contant p {
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        padding: 0 15PX;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 993px) {
@@ -184,7 +277,11 @@ ul li a {
         width: 85%;
         margin: 0 auto;
     }
-
+    .hero-circle img {
+        width: 31%;
+        top: 10%;
+        left: 35%;
+    }
 
 
 
@@ -272,6 +369,24 @@ ul li a {
         padding: 0 15PX;
         font-size: 13px;
     }
+    #choose-p {
+    display: grid;
+    grid-template-columns: repeat( 1, 1fr);
+    gap: 30px;
+}
+#box {
+    width: 100%;
+    display: flex;
+     background-color: #351165;
+     padding: 20px;
+     border-radius: 20px;
+     border: 1px solid white;
+}
+
+
+/* #choose-p {
+    width: 100%;
+} */
 
    
 
