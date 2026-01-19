@@ -317,6 +317,7 @@ ul li a {
     grid-template-columns: repeat(4, 1fr);
     gap: 80px;
     padding-left: 50px;
+
 }
 
 /* feature episode section code start  */
@@ -434,6 +435,7 @@ ul li a {
 #meet-host {
     background-color: #351165;
     border-radius: 20px;
+    padding: 50px 0;
 }
 
 footer {
