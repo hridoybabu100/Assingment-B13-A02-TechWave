@@ -141,8 +141,9 @@ ul li a {
 /* choose section code start  */
 #choose {
     background-color: #230E3D;
-    padding: 100px 0;
+    padding: 40px 0;
 }
+
 #choose h2 {
     color: #FFFFFF;
     font-weight: bold;
@@ -150,41 +151,274 @@ ul li a {
     font-size: 48px;
     padding: 40px 0;
 }
+
 #choose-p {
     display: grid;
-    grid-template-columns: repeat( 3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 .card-1 {
     grid-column: span 1;
     grid-row: span 2;
 }
+
 .card-2 {
     grid-column: span 2;
     grid-row: span 1;
 }
+
 .card-3 {
     grid-row: span 1;
     grid-column: span 2;
 }
+
 #box {
-     background-color: #351165;  
-     padding: 20px;
-     border-radius: 20px;
+    background-color: #351165;
+    padding: 20px;
+    border-radius: 20px;
 }
-#box  *{
+
+#box * {
     margin-bottom: 15px;
 }
+
 #box h4 {
     font-size: 24px;
     color: #FFFFFF;
     font-weight: bold;
 }
+
 #box p {
     color: #FFFFFF;
     line-height: 24px;
     font-size: 16px;
 }
+
+/* about section code hare  */
+#about {
+    background-color: #230E3D;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.about-heading h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48PX;
+    font-weight: bold;
+    padding: 20PX 0;
+}
+
+.about-heading p {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* episode section code start  */
+#episode {
+    background-color: #230E3D;
+    padding: 30px 0;
+
+}
+
+.episode-card h2 {
+    color: #00FF88;
+    font-size: 48px;
+}
+
+.episode-card h2 i {
+    color: #00FF88;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.episode-card i {
+    color: #00FF88;
+    font-size: 25px;
+}
+
+.episode-card p {
+    color: #FFFFFF;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+#episode-p {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    padding-left: 50px;
+}
+
+/* feature episode section code start  */
+#feature-episode {
+    background-color: #1A0B2E;
+    padding: 100px 0;
+}
+
+.feature-episode-heading h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.feature-episode-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.feature-episode-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-episode-card {
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #351165;
+}
+
+.feature-contant {
+    padding: 15px;
+}
+
+.feature-contant h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.feature-contant p {
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.feature-contant * {
+    margin-bottom: 15px;
+}
+
+/* Meet the Host section code start  */
+
+#meet {
+    background-color: #1A0B2E;
+    padding: 20px 0;
+    padding-bottom: 80px;
+}
+
+.meet-heading h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.meet-p {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.meet-contant h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32;
+
+
+}
+
+.meet-contant p {
+    color: #FFFFFF;
+    line-height: 24px;
+
+}
+
+.meet-contant * {
+    margin-bottom: 15px;
+}
+
+.meet-icon i {
+    background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    padding-top: 10px;
+    border: 1px solid white;
+}
+
+.meet-icon {
+    gap: 20px;
+}
+
+#meet-host {
+    background-color: #351165;
+    border-radius: 20px;
+}
+
+footer {
+    background-image: url(./assets/footer-bg.png);
+    width: 100%;
+    height: 24.23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer section code start  */
+#footer-contant {
+    text-align: center; 
+    padding-top: 6.5%;
+   
+}
+.footer-all-p {
+    display: flex;
+    justify-content: center;
+    gap: 2.10rem;
+}
+#foter-copy {
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px
+}
+.footer-box p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px
+}
+.footer-box  img {
+    width: 24px;
+}
+.footer-name h2 {
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#wave {
+    background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
+
+
+}
+
+
+
 
 /* responsive-desing  */
 @media screen and (max-width: 1600px) {
@@ -218,6 +452,17 @@ ul li a {
         padding-top: 35%;
     }
 
+    .feature-episode-p {
+
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 350px;
+        height: 500px;
+    }
+
+
 
 }
 
@@ -227,7 +472,7 @@ ul li a {
         margin: 0 auto;
     }
 
-      .hero-circle img {
+    .hero-circle img {
         width: 30%;
         top: 10%;
         left: 35%;
@@ -270,6 +515,11 @@ ul li a {
         padding: 0 15PX;
         font-size: 13px;
     }
+
+    .feature-episode-p {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (max-width: 993px) {
@@ -277,11 +527,65 @@ ul li a {
         width: 85%;
         margin: 0 auto;
     }
+
     .hero-circle img {
         width: 31%;
         top: 10%;
         left: 35%;
     }
+
+    #choose-p {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #box {
+        width: 100%;
+
+    }
+
+    #choose h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    #choose {
+        background-color: #230E3D;
+        padding: 60px 0;
+    }
+
+    #episode-p {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        padding-left: 80px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 45px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-p {
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+        .meet-p {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+
 
 
 
@@ -289,7 +593,7 @@ ul li a {
 
 @media screen and (max-width: 777px) {
     .container {
-        width: 92%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -297,13 +601,85 @@ ul li a {
         display: none;
     }
 
+    #choose-p {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #box {
+        width: 100%;
+
+    }
+
+    #choose h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    #choose {
+        background-color: #230E3D;
+        padding: 40px 0;
+    }
+
+    #episode-p {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding-left: 60px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 40px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-p {
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 100%;
+    }
+
+    #feature-episode {
+        padding: 40px 0;
+    }
+
+    .feature-episode-heading h1 {
+        font-size: 45px;
+    }
+
+    .feature-contant h2 {
+        font-size: 25px;
+    }
+
+    .frame {
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+        .meet-p {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+
 
 
 }
 
 @media screen and (max-width: 576px) {
     .container {
-        width: 97%;
+        width: 94%;
         margin: 0 auto;
     }
 
@@ -369,30 +745,151 @@ ul li a {
         padding: 0 15PX;
         font-size: 13px;
     }
+
     #choose-p {
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+
+    #box {
+        width: 100%;
+
+    }
+
+    #choose h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    #choose {
+        background-color: #230E3D;
+        padding: 30px 0;
+    }
+
+    .about-heading h1 {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 32PX;
+        font-weight: bold;
+        padding: 20PX 0;
+    }
+
+    .about-heading p {
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    #episode-p {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 40px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-p {
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 100%;
+    }
+
+    #feature-episode {
+        padding: 40px 0;
+    }
+
+    .feature-episode-heading h1 {
+        font-size: 35px;
+    }
+
+    .feature-contant h2 {
+        font-size: 23px;
+    }
+
+    .frame {
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .meet-p {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
 }
-#box {
-    width: 100%;
 
-}
-
-
-/* #choose-p {
-    width: 100%;
-} */
-
+#footer-contant {
+    text-align: center; 
+    padding-top: 6.5%;
    
+}
+.footer-all-p {
+  display: grid;
+  gap: 20px;
+  padding-top: 28px;
+  padding-left: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+#foter-copy {
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px
+}
+.footer-box p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px
+}
+.footer-box  img {
+    width: 20px;
+}
+.footer-name h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+#footer-contant {
+    text-align: center; 
+    padding-top: 1.5%;
+   
+}
+
+
+footer {
+    background-image: url(./assets/footer-bg.png);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 
 
 
 
 }
 
- @media screen and (max-width:370px){
-            .hero-circle img {
+@media screen and (max-width:370px) {
+    .hero-circle img {
         width: 54%;
         top: 14%;
         left: 23%;
@@ -436,6 +933,6 @@ ul li a {
         padding: 0 15PX;
     }
 
- 
 
-    }
+
+}
