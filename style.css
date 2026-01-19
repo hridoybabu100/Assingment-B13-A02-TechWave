@@ -33,12 +33,12 @@ header {
     font-weight: 700;
 }
 
+
+
 #wave {
     background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
     background-clip: text;
     color: transparent;
-
-
 }
 
 ul {
@@ -66,6 +66,13 @@ ul li a {
     color: white;
     cursor: pointer;
     font-weight: 700;
+    transition: 1s;
+}
+
+.nav-btn button:hover {
+    background-image: linear-gradient(to bottom, red, yellow);
+    color: #1A0B2E;
+
 }
 
 #hero {
@@ -84,7 +91,7 @@ ul li a {
     top: 10%;
     left: 50.5%;
     z-index: 1;
-    
+
 }
 
 #micro {
@@ -94,30 +101,36 @@ ul li a {
     left: 45%;
     z-index: 2;
 }
-@keyframes my-animation{
-    0%{
+
+@keyframes my-animation {
+    0% {
         background-color: #FB09B4;
-        width: 120px;
+        width: 110px;
     }
-    25%{
+
+    25% {
         background-color: #F7E93F;
-        width: 150px;
+        width: 100px;
     }
+
     50% {
         background-color: #1A0B2E;
         color: #FFFFFF;
-        width: 80px;
-        
+        width: 100px;
+
     }
-    75%{
+
+    75% {
         background-color: beige;
         color: black;
+        width: 110px;
     }
-    100%{
+
+    100% {
         background-color: #00FF88;
         color: #F7E93F;
-        width: 160px;
-       
+        width: 100px;
+
 
     }
 }
@@ -134,7 +147,7 @@ ul li a {
     border: none;
     top: 12%;
     left: 55%;
-    animation: my-animation 2s infinite 0.5s ease-in alternate ;
+    animation: my-animation 2s infinite 0.5s ease-in alternate;
 
 }
 
@@ -157,14 +170,39 @@ ul li a {
     margin-bottom: 15px;
 }
 
-.hero-btn button {
+.btn-1 {
     padding: 10px 20px;
     border-radius: 25px;
     border: none;
+    color: #FFFFFF;
     background: linear-gradient(360deg, #ffb347, #FB09B4, #9100F8);
-    color: white;
+    background-color: #230E3D;
     cursor: pointer;
     font-weight: 700;
+    transition: 1s;
+}
+
+.btn-1:hover {
+    background-image: linear-gradient(to bottom, red, yellow);
+    color: #1A0B2E;
+
+}
+
+.btn-2 {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #00FF88;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 10px;
+    border: 1px solid #00FF88;
+    transition: 1s;
+}
+
+.btn-2:hover {
+    background-color: #FFFFFF;
+    color: #1A0B2E;
 }
 
 /* choose section code start  */
@@ -388,6 +426,7 @@ ul li a {
     border: 1px solid white;
 }
 
+
 .meet-icon {
     gap: 20px;
 }
@@ -408,29 +447,34 @@ footer {
 
 /* footer section code start  */
 #footer-contant {
-    text-align: center; 
+    text-align: center;
     padding-top: 6.5%;
-   
+
 }
+
 .footer-all-p {
     display: flex;
     justify-content: center;
     gap: 2.10rem;
 }
+
 #foter-copy {
     padding-top: 40px;
     color: #FFFFFF;
     font-size: 15px;
     line-height: 24px
 }
+
 .footer-box p {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px
 }
-.footer-box  img {
+
+.footer-box img {
     width: 24px;
 }
+
 .footer-name h2 {
     font-size: 70px;
     color: #FFFFFF;
@@ -606,13 +650,14 @@ footer {
         justify-content: center;
         gap: 40px;
     }
-        .meet-p {
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-}
+
+    .meet-p {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
 
 
 
@@ -693,13 +738,14 @@ footer {
         height: 50%;
         object-fit: cover;
     }
-        .meet-p {
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-}
+
+    .meet-p {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
 
 
 
@@ -852,64 +898,70 @@ footer {
         height: 50%;
         object-fit: cover;
     }
+
     .meet-p {
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-}
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
 
-#footer-contant {
-    text-align: center; 
-    padding-top: 6.5%;
-   
-}
-.footer-all-p {
-  display: grid;
-  gap: 20px;
-  padding-top: 32px;
-  padding-left: 60px;
-  grid-template-columns: repeat(2, 1fr);
-}
-#foter-copy {
-    padding-bottom: 20px;
-    padding-top: 15px;
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 24px
-    
-}
-.footer-box p {
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 24px
-}
-.footer-box  img {
-    width: 18px;
-    height: 18px;
-}
-.footer-name h2 {
-    font-size: 30px;
-    color: #FFFFFF;
-    font-weight: 700;
-    padding-bottom: 5px;
-}
-#footer-contant {
-    text-align: center; 
-    padding-top: 6.5%;
-   
-}
+    #footer-contant {
+        text-align: center;
+        padding-top: 6.5%;
+
+    }
+
+    .footer-all-p {
+        display: grid;
+        gap: 20px;
+        padding-top: 32px;
+        padding-left: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #foter-copy {
+        padding-bottom: 20px;
+        padding-top: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .footer-box p {
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .footer-box img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-name h2 {
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    #footer-contant {
+        text-align: center;
+        padding-top: 6.5%;
+
+    }
 
 
-footer {
-    background-image: url(./assets/footer-bg.png);
-    width: 100%;
-    height: 230px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    footer {
+        background-image: url(./assets/footer-bg.png);
+        width: 100%;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 
 
