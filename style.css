@@ -496,7 +496,7 @@ footer {
 
 
 /* responsive-desing  */
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) { */
     .container {
         width: 75%;
         margin: 0 auto;
