@@ -76,60 +76,67 @@ ul li a {
 }
 
 #hero {
+
     background-image: url(./assets/hero-bg.png);
     width: 100%;
-    height: 100%;
+    height: 760px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 }
 
-.hero-circle img {
-    width: 24.8rem;
+#circle {
+    width: 20%;
     position: absolute;
-    top: 10%;
-    left: 50.5%;
     z-index: 1;
-
+    left: 40%;
+    top: 15%;
 }
 
 #micro {
-    width: 10vh;
-    height: 13rem;
-    top: 40%;
-    left: 45%;
+    width: 8%;
     z-index: 2;
+    top: 24%;
+    left: 46%;
+    position: absolute;
+}
+
+.hero-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes my-animation {
     0% {
         background-color: #FB09B4;
-        width: 110px;
+
     }
 
     25% {
         background-color: #F7E93F;
-        width: 100px;
+
     }
 
     50% {
         background-color: #1A0B2E;
         color: #FFFFFF;
-        width: 100px;
+
 
     }
 
     75% {
         background-color: beige;
         color: black;
-        width: 110px;
+
     }
 
     100% {
         background-color: #00FF88;
         color: #F7E93F;
-        width: 100px;
+
 
 
     }
@@ -145,7 +152,7 @@ ul li a {
     padding: 6px 25px;
     border-radius: 25px;
     border: none;
-    top: 12%;
+    top: 16%;
     left: 55%;
     animation: my-animation 2s infinite 0.5s ease-in alternate;
 
@@ -154,6 +161,7 @@ ul li a {
 .hero-contant {
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 30%;
 
 }
 
@@ -496,50 +504,8 @@ footer {
 
 
 /* responsive-desing  */
-/* @media screen and (max-width: 1600px) { */
-    .container {
-        width: 75%;
-        margin: 0 auto;
-    }
-
-    .hero-circle img {
-        width: 22.8rem;
-        top: 10%;
-        left: 38.5%;
-    }
-
-    #micro {
-        width: 10%;
-        height: 30%;
-        top: 20%;
-        left: 45%;
-
-    }
-
-    #new-btn {
-        font-size: 18px;
-        top: 12%;
-        left: 55%;
-
-    }
-
-    .hero-contant {
-        padding-top: 35%;
-    }
-
-    .feature-episode-p {
-
-        gap: 40px;
-    }
-
-    .feature-episode-card {
-        width: 350px;
-        height: 500px;
-    }
 
 
-
-}
 
 @media screen and (max-width: 1200px) {
     .container {
@@ -594,6 +560,39 @@ footer {
     .feature-episode-p {
         flex-wrap: wrap;
     }
+         #hero {
+
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 650px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    #circle {
+        width: 25%;
+        position: absolute;
+        z-index: 1;
+        left: 38%;
+        top: 12%;
+    }
+
+    #micro {
+        width: 10%;
+        z-index: 2;
+        top: 25%;
+        left: 45%;
+        position: absolute;
+    }
+      .hero-contant {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 35%;
+
+}
 
 }
 
@@ -660,6 +659,39 @@ footer {
         gap: 30px;
         padding: 20px;
     }
+     #hero {
+
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 550px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    #circle {
+        width: 32%;
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        top: 12%;
+    }
+
+    #micro {
+        width: 10%;
+        z-index: 2;
+        top: 25%;
+        left: 44%;
+        position: absolute;
+    }
+      .hero-contant {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 38%;
+
+}
 
 
 
@@ -676,6 +708,39 @@ footer {
     ul {
         display: none;
     }
+       #hero {
+
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    #circle {
+        width: 34%;
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        top: 12%;
+    }
+
+    #micro {
+        width: 10%;
+        z-index: 2;
+        top: 27%;
+        left: 45%;
+        position: absolute;
+    }
+      .hero-contant {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 38%;
+
+}
 
     #choose-p {
         display: flex;
@@ -779,19 +844,34 @@ footer {
         margin-left: 5px;
     }
 
-    .hero-circle img {
-        width: 50%;
-        top: 10%;
-        left: 25%;
+    #hero {
+
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    #circle {
+        width: 38%;
+        position: absolute;
+        z-index: 1;
+        left: 31%;
+        top: 13%;
     }
 
     #micro {
         width: 10%;
-        top: 24%;
-        height: 20%;
+        z-index: 2;
+        top: 27%;
         left: 45%;
-
+        position: absolute;
     }
+
 
     #new-btn {
         font-size: 15px;
@@ -800,12 +880,12 @@ footer {
 
     }
 
-    .hero-contant {
-        text-align: center;
-        padding-bottom: 30px;
+  .hero-contant {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 23%;
 
-
-    }
+}
 
     .hero-contant h1 {
         color: #FFFFFF;
@@ -974,51 +1054,44 @@ footer {
 
 }
 
-@media screen and (max-width:370px) {
-    .hero-circle img {
-        width: 54%;
-        top: 14%;
-        left: 23%;
+@media screen and (max-width:450px) {
+       #hero {
+
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 420px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    #circle {
+        width: 36%;
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        top: 17%;
     }
 
     #micro {
         width: 10%;
+        z-index: 2;
         top: 25%;
-        height: 20%;
-        left: 45%;
-
+        left: 46%;
+        position: absolute;
     }
+      .hero-contant {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25%;
 
-    #new-btn {
-        font-size: 14px;
-        top: 12%;
-        left: 58%;
-
-    }
-
-    .hero-contant {
-        text-align: center;
-        padding-bottom: 30px;
-
-
-    }
-
-    .hero-contant h1 {
-        color: #FFFFFF;
-        font-size: 25px;
-        font-weight: 700;
-        margin-top: 140px;
-        margin-bottom: 12px;
-
-    }
-
-    .hero-contant p {
-        color: #FFFFFF;
-        font-size: 14px;
-        margin-bottom: 15px;
-        padding: 0 15PX;
-    }
-
+}
+#new-btn {
+    top: 17%;
+    left: 60%;
+}
 
 
 }
